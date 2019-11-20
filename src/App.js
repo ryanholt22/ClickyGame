@@ -5,19 +5,10 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <header>
+        <h1>Welcome to Clicky Game!</h1>
+        <h3>Rules of this game: There are 12 images below, clicking on one of these images will give you a score,
+          and the photos will reshuffle. But if you click on the same picture your score will reset. Reach a score of 12 to win!</h3>
       </header>
     </div>
   );
